@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swaraj Namdeo | Developer Portfolio</title>
+  <meta name="description"
+    content="High-end animated developer portfolio for Swaraj Namdeo, a full-stack Java developer focused on Spring Boot, React, secure APIs, and scalable backend systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300..900&family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div id="preloader" aria-live="polite">
+    <div class="loader-mark">SN</div>
+    <div class="loader-copy">
+      <span>Loading Swaraj Namdeo Developer Portfolio</span>
+      <strong id="progress-text">0%</strong>
+    </div>
+    <div class="loader-track">
+      <div id="progress-bar" class="loader-bar"></div>
+    </div>
+    <span id="progress-count" class="loader-count"></span>
+  </div>
+
+  <canvas id="animation-canvas" aria-hidden="true"></canvas>
+  <div class="scene-vignette" aria-hidden="true"></div>
+  <div class="cursor-light" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Swaraj Namdeo home">
+      <span class="brand-mark">SN</span>
+      <span>Swaraj Namdeo</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#stack">Stack</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="mailto:swarajnamdeo.dev@gmail.com">Hire Developer</a>
+  </header>
+
+  <aside class="progress-rail" aria-hidden="true">
+    <span>Scroll</span>
+    <div class="rail-track">
+      <div id="hud-scroll-thumb" class="rail-thumb"></div>
+    </div>
+    <strong id="hud-scroll-percent">0%</strong>
+  </aside>
+
+  <main id="home">
+    <section class="hero section-panel" data-section>
+      <div class="hero-kicker reveal">Full-Stack Java Developer</div>
+      <h1 class="hero-title reveal">Swaraj Namdeo <h2>building secure backend systems with polished front-end </h2>
+      </h1>
+      <p class="hero-copy reveal">
+        Computer Science Engineering undergraduate focused on Spring Boot, React, REST APIs,
+        JWT authentication, and database-driven products that feel fast, deliberate, and production-ready.
+      </p>
+      <div class="hero-actions reveal">
+        <a class="btn primary" href="#work">View Work</a>
+        <a class="btn secondary" href="mailto:swarajnamdeo.dev@gmail.com">Contact Developer</a>
+      </div>
+      <div class="profile-strip reveal" aria-label="Relevant profiles">
+        <a href="mailto:swarajnamdeo.dev@gmail.com">Email</a>
+        <a href="https://github.com/Swaraj0730" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/swaraj-namdeo" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://leetcode.com/SwarajNamdeo" target="_blank" rel="noreferrer">LeetCode</a>
+      </div>
+    </section>
+
+    <section id="work" class="section-panel work-section" data-section>
+      <div class="section-heading reveal">
+        <span>Selected Developer Work</span>
+        <h2>To Solve the a Problem</h2>
+        <h2>Projects</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-copy">
+            <div class="project-number">01</div>
+            <h3>Travsolute Smart Train Booking System</h3>
+            <p>
+              A full-stack railway booking platform built to help users discover routes, check seat availability,
+              understand waitlist risk, and complete secure bookings through JWT-based authenticated flows.
+            </p>
+          </div>
+          <div class="project-footer">
+            <div class="tag-row">
+              <span>Spring Boot</span><span>React</span><span>Flask</span><span>MySQL</span>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-copy">
+            <div class="project-number">02</div>
+            <h3>MPBC Union Portal</h3>
+            <p>
+              A membership management portal designed to register members, support admin approval workflows,
+              manage records safely, and generate documents through a clean role-aware system.
+            </p>
+          </div>
+          <div class="project-footer">
+            <div class="tag-row">
+              <span>Java</span><span>PostgreSQL</span><span>React</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="stack" class="section-panel stack-section" data-section>
+      <div class="section-heading reveal">
+        <span>Developer Stack</span>
+        <h2>Backend first, interface aware.</h2>
+      </div>
+      <div class="stack-layout">
+        <div class="stack-copy reveal">
+          <p>
+            I like the internal mechanics: clean API boundaries, request security,
+            relational schema design, and front-end integration that does not fight the backend.
+          </p>
+          <a class="text-link" href="mailto:swarajnamdeo.dev@gmail.com">Discuss an internship or project</a>
+        </div>
+        <div class="skills-cloud reveal" aria-label="Technical skills">
+          <span>Java</span><span>Spring Boot</span><span>Spring Security</span><span>JWT</span>
+          <span>BCrypt</span><span>REST APIs</span><span>React</span><span>JavaScript</span>
+          <span>PostgreSQL</span><span>MySQL</span><span>Docker</span><span>Flask</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section-panel education-section" data-section>
+      <div class="section-heading reveal">
+        <span>Education & Qualifications</span>
+      </div>
+      <div class="education-grid">
+        <article class="info-card reveal">
+          <span class="info-label">College Result</span>
+          <h3>B.Tech, Computer Science & Engineering</h3>
+          <p>Kalinga Institute of Industrial Technology, 2023 to present.</p>
+          <strong>CGPA 8.67</strong>
+        </article>
+        <article class="info-card reveal">
+          <span class="info-label">Class XII Result</span>
+          <h3>Christ Church Boys' Senior School</h3>
+          <p>CBSE Class 12, completed in 2023 with a strong academic record.</p>
+          <strong>88.80%</strong>
+        </article>
+        <article class="info-card reveal">
+          <span class="info-label">Class X Result</span>
+          <h3>Christ Church Boys' Senior School</h3>
+          <p>CBSE Class 10, completed in 2021 with consistent performance across core subjects.</p>
+          <strong>87.50%</strong>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications" class="section-panel certifications-section" data-section>
+      <div class="section-heading reveal">
+        <span>Certifications</span>
+      </div>
+      <div class="certification-grid">
+        <article class="info-card reveal">
+          <span class="info-label">2024</span>
+          <h3>AWS APAC Solutions Architecture Job Simulation</h3>
+          <p>Hands-on architecture decisions, cloud topology thinking, and security-aware infrastructure planning.</p>
+          <strong>Forage</strong>
+        </article>
+        <article class="info-card reveal">
+          <span class="info-label">2024</span>
+          <h3>Accenture UK Developer and Technology Job Simulation</h3>
+          <p>REST API reasoning, integration workflows, and enterprise-style delivery practice.</p>
+          <strong>Forage</strong>
+        </article>
+        <article class="info-card reveal">
+          <span class="info-label">2025</span>
+          <h3>Spring 6 & Spring Boot 3 for Beginners</h3>
+          <p>Spring Boot, JPA, REST services, and core security foundations through practical project work.</p>
+          <strong>Udemy</strong>
+        </article>
+        <article class="info-card reveal">
+          <span class="info-label">2025</span>
+          <h3>Ethical Decision Making for Success in the Tech Industry</h3>
+          <p>Focused on responsible engineering judgment, professional tradeoffs, and decision quality in technology
+            work.</p>
+          <strong>Coursera</strong>
+        </article>
+        <article class="info-card reveal">
+          <span class="info-label">2025</span>
+          <h3>Corporate Governance</h3>
+          <p>Explored accountability, policy, and governance principles that shape dependable organizations and systems.
+          </p>
+          <strong>Coursera</strong>
+        </article>
+        <article class="info-card reveal">
+          <span class="info-label">2025</span>
+          <h3>Business for Good: Fundamentals of Corporate Responsibility</h3>
+          <p>Studied sustainability, social responsibility, and business decision-making with long-term impact in mind.
+          </p>
+          <strong>Coursera</strong>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section-panel contact-section" data-section>
+      <div class="contact-card reveal">
+        <span>Available for Developer Internships</span>
+        <h2>Let’s build something sharp.</h2>
+        <p>
+          I am looking for backend or full-stack developer opportunities where I can contribute to real systems,
+          learn from strong teams, and ship dependable software.
+        </p>
+        <div class="profile-strip profile-strip-contact" aria-label="Professional links">
+          <a href="mailto:swarajnamdeo.dev@gmail.com">Email</a>
+          <a href="https://github.com/Swaraj0730" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://linkedin.com/in/swaraj-namdeo" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://leetcode.com/SwarajNamdeo" target="_blank" rel="noreferrer">LeetCode</a>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:swarajnamdeo.dev@gmail.com">swarajnamdeo.dev@gmail.com</a>
+          <button class="btn secondary" id="cta-restart" type="button">Replay Animation</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
